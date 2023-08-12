@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.main>h1{
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 20px;
+    color: black;
+}
+
+button:hover{
+    border: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: teal;
+}
+
+
+/* CSS FOR MYELEMENT */
